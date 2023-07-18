@@ -1,0 +1,29 @@
+/*CSS de COSA LOCA SIN LINKEAR!!! */
+
+/*Selectores direccionado a un solo elemento por ID (#)*/
+
+#titulo{
+    color: yellow;
+    font-family: 'Spicy Rise';
+};
+
+/*Selectores de clases comienzan con un (.) seguido de la clase */
+
+.parrafofoter{
+    color: brown;
+};
+
+/*Selectores descendientes */
+
+
+footer p{
+    color: green
+};
+
+/* NTH-CHILD, tipo de selector personalizado donde el dom se emfoca solo en los parametros que le pasamos en el selector y en la posicion que determinamos entre los ()*/
+
+footer p:nth-child(1){
+    background-color: blueviolet;
+};
+
+/*--------------*/

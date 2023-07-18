@@ -1,0 +1,75 @@
+
+/*Selectores de etiquetas nativas de html*/
+body{
+    color: grey;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+.logo{
+    width: 110px;
+}
+
+h1{
+    
+    font-weight: 700;
+    display: inline ;
+    
+}
+
+p{
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+strong{
+    color: black;
+}
+
+footer p{
+    text-align: right;
+    padding: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    background: #78909c;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+ul{
+    display: inline-block;
+    float: right;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 65vh;
+}
+
+footer{
+    background-color: #455a64;
+    height: 200px;
+}
+
+a{color: inherit;}
+
+.card{
+    width: 42%;
+    margin: 4%;
+    float: left;
+    padding: 0;
+    
+}
